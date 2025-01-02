@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
-import '@/app/styles/contact.css';
+import '@/app/styles/Contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -40,11 +40,11 @@ const Contact = () => {
 
             <div className="contact-flex" data-aos="zoom-in-up">
               <AiOutlineMail size={30} /> 
-              <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+              <a href="mailto:xyz@gmail.com">Shumaila@hotmail.com</a>
             </div>
             <div className="contact-flex" data-aos="zoom-in-up">
               <BsTelephone size={30} /> 
-              <a href="tel:+02100000000">(021) 000-0000</a>
+              <a href="tel:+02100000000">(021) 333-3111567</a>
             </div>
           </div>
 

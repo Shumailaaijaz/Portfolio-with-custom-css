@@ -32,11 +32,7 @@ const Skills = () => {
           alt="Skill Icon"
           className="skills-image"
         />
-        <img
-          src="https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000"
-          alt="Skill Icon"
-          className="skills-image"
-        />
+        
         <img
           src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
           alt="Skill Icon"

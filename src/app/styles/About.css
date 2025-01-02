@@ -1,9 +1,11 @@
+/* Base styles for all screen sizes */
 .main-container {
   display: flex;
   flex-direction: column; /* Stack items vertically by default */
   background-color: #dfdede;
   height: auto;
   min-height: 100vh;
+  color: #ec1010;
 }
 
 .about-sidebar {
@@ -39,7 +41,7 @@
 }
 
 .about-sidebar-item a {
-  color: #ffffff;
+  color: #b4b0b0;
   text-decoration: none;
   font-size: 16px;
 }
@@ -79,18 +81,67 @@
 .about-card {
   padding: 20px;
   position: relative;
-  background-color: #ec1010;
+  background-color: #dfdede;
   border-radius: 8px;
   margin-top: 24px;
-  box-shadow: 0 4px;
-  font-style:#ec1010;
-  font: 12px "Helvetica Neue",
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .tag {
-  color:#ec1010,
+  font-size: 0.875rem;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  background-color: #ec1010;
+  padding: 0 8px;
 }
 
-.about-li{
-  color:#ec1010
+.about-li {
+  margin: 8px 0;
+  line-height: 1.5;
+  color: #ec1010;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and larger devices */
+@media (min-width: 768px) {
+  .main-container {
+    flex-direction: row; /* Side-by-side layout for larger screens */
+  }
+
+  .about-sidebar {
+    width: 240px; /* Fixed sidebar width */
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+
+  .container {
+    width: 75%;
+  }
+
+  .about-title {
+    font-size: 2.5rem; /* Larger title size for bigger screens */
+  }
+
+  .about-intro {
+    font-size: 1.5rem; /* Adjusted intro size */
+  }
+}
+
+/* For desktops and larger screens */
+@media (min-width: 1024px) {
+  .container {
+    width: 70%; /* Wider container for desktops */
+  }
+
+  .about-title {
+    font-size: 5rem; /* Even larger title size */
+  }
+
+  .about-intro {
+    font-size: 2rem; /* Adjusted intro size for better readability */
+  }
 }

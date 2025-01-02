@@ -1,5 +1,5 @@
 import React from "react";
-import '@/app/styles/heading.css';
+import '@/app/styles/Heading.css';
 
 interface propsType {
   title: string;
