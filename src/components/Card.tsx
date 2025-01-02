@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import '../app/styles/card.css';
+import '@/app/styles/card.css';
 
 interface propsType {
   title: string;

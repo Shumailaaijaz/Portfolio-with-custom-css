@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
-import '../app/styles/contact.css';
+import '@/app/styles/contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
