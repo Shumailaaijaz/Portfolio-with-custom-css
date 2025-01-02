@@ -1,0 +1,91 @@
+/* Skills Section */
+.skills-container {
+    position: relative;
+    margin-top: 24px;
+  }
+  
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: #f5f5f5; /* Equivalent to Tailwind's bg-gray-100 */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to Tailwind's shadow-lg */
+  }
+  
+  .skills-tag {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color: white;
+    padding: 4px 8px;
+    font-weight: bold;
+  }
+  
+  .skills-image {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+
+.maingrd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    color: bisque;
+  }
+  
+  .picskill {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    float: left;
+  }
+  .desx {
+    color: white;
+    font-size: large;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 20px;
+    transition: all 0.5s;
+  }
+  .desx:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 100) 12%, #15bcde 200%);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  h2 {
+    color: #ffffff;
+    text-align: center;
+    position: relative; /* Added */
+    margin-top: 50px;
+    font-size: xx-large;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2::before {
+    content: "";
+    width: 20%;
+    height: 3px;
+    position: absolute; /* Added */
+    left: 50%; /* Align to center */
+    transform: translateX(-50%); /* Centering */
+    top: 47px;
+    background-color: white;
+  }
+  u{
+  color: #15bcde;
+    padding: 3px;
+  }
+  @media (width < 850px) {
+    .maingrd {
+      display: grid;
+      grid-template-columns:  1fr;
+      grid-gap: 50px;
+      color: bisque;
+    }
+  
+  }

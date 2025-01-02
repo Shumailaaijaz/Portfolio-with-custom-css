@@ -1,0 +1,96 @@
+.main-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically by default */
+  background-color: #dfdede;
+  height: auto;
+  min-height: 100vh;
+}
+
+.about-sidebar {
+  width: 100%; /* Full width on smaller screens */
+  background-color: #ec1010;
+  height: auto;
+  position: static; /* Remove sticky for smaller screens */
+}
+
+.about-sidebar-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-sidebar-image {
+  width: 80px; /* Responsive size for smaller screens */
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* Wrap items on small screens */
+  justify-content: center; /* Center align items */
+}
+
+.about-sidebar-item {
+  margin: 10px;
+}
+
+.about-sidebar-item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.about-sidebar-item a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%; /* Adjust width for smaller screens */
+  margin: 20px auto;
+}
+
+.about-border {
+  border: 4px dotted black;
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 2rem; /* Smaller font size for small screens */
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content {
+  padding: 20px 0;
+}
+
+.about-intro {
+  font-size: 1.25rem; /* Smaller font size */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.about-card {
+  padding: 20px;
+  position: relative;
+  background-color: #ec1010;
+  border-radius: 8px;
+  margin-top: 24px;
+  box-shadow: 0 4px;
+  font-style:#ec1010;
+  font: 12px "Helvetica Neue",
+}
+
+.tag {
+  color:#ec1010,
+}
+
+.about-li{
+  color:#ec1010
+}
